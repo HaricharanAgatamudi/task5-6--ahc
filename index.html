@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div</title>
+  <style>
+    body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.centered-div {
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.centered-div h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.centered-div p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.centered-div button {
+    padding: 10px 45px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.centered-div button:hover {
+    background-color: #0056b3;
+}
+
+.centered-div:hover {
+    width: 90%;
+    height: 40vh;
+}
+
+  </style>
+</head>
+<body>
+    <div class="centered-div">
+        <h1>Welcome to Spice Mahal</h1>
+        <p>Experience the perfect blend of spices and royal flavors in every bite.</p>
+        <button>Explore Menu</button>
+    </div>
+</body>
+</html>
